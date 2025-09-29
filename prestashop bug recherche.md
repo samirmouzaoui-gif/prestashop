@@ -11,3 +11,5 @@ WHERE ps.active = 1 AND ps.id_shop = 1
 AND p.id_product NOT IN (SELECT DISTINCT id_product FROM ps_search_index);
 
 solution supprestion des produit detecté via cette requette
+
+<img width="819" height="716" alt="image" src="https://github.com/user-attachments/assets/325f617f-a6c6-4046-9c34-9c48633eedbb" />
